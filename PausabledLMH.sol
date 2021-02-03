@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.6;
 
-import "./../utils/Owners.sol";
+import "./Owners.sol";
 
-contract Pausabled is Owners{
+contract PausabledLMH is Owners{
 
     bool internal _paused;
     

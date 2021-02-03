@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.6;
 
-import "./../contracts/math/SafeMath.sol";
-import "./../contracts/GSN/Context.sol";
+import "https://github.com/Woonkly/OpenZeppelinBaseContracts/contracts/math/SafeMath.sol";
+import "https://github.com/Woonkly/OpenZeppelinBaseContracts/contracts/GSN/Context.sol";
+
 
 
 contract Owners is Context{
