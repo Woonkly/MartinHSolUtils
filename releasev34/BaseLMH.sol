@@ -55,13 +55,13 @@ contract BaseLMH {
 
     //Section functions
 
-    receive() external payable {
+    receive() external payable virtual {
         emit CoinReceived(msg.value);
     }
 
     fallback() external payable {}
 
-    function getMyCoinBalance() public view returns (uint256) {
+    function getMyCoinBalance() public virtual view returns (uint256) {
         address payable self = address(this);
         uint256 bal = self.balance;
         return bal;
